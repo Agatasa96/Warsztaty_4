@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+h1 {
+	text-align: center;
+	text-decoration: overline;
+	letter-spacing: 5px;
+	text-shadow: 3px 0px coral;
+	position: relative;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+	-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+	animation-name: example;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 60px;
+}
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	background-color: rgba(191, 165, 63, 0.2);
+}
+
+h2 {
+	font-size: 40px;
+	text-decoration: overline;
+	text-align: center;
+	text-shadow: 3px 0px coral;
+}
+
+.booksD {
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-shadow: 3px 0px coral;
+	display: none;
+}
+
+.loadBooks {
+	font-size: 25px;
+	letter-spacing: 2px;
+	display: none
+}
+
+.delete {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	border: 2px solid coral;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.24), 0 67px 80px 0
+		rgba(0, 0, 0, 0.19);
+	border-radius: 12px;
+	margin: 5px;
+	padding: 10px;
+}
+
+#mainBtns {
+	text-align: center;
+}
+
+.bm, .add {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	border: 2px solid coral;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.24), 0 67px 80px 0
+		rgba(0, 0, 0, 0.19);
+	border-radius: 12px;
+	margin: 5px;
+	padding: 10px;
+}
+
+input {
+	border: 2px solid coral;
+	font-size: 30px
+}
+
+.formAll {
+	text-align: center;
+	display: none;
+}
+
+* Safari 4.0 - 8.0 * /
+ @-webkit-keyframes example {
+	from {top: 0px;
+}
+
+to {
+	top: 50px;
+}
+
+}
+@
+keyframes example {
+	from {top: 0px;
+}
+
+to {
+	top: 50px;
+}
+
+div {
+	padding: 10px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	background-color: #ddd;
+}

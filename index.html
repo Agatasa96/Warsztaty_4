@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="js/books.js" type="text/javascript"></script>
+<link rel="stylesheet" href="style/style.css">
+<title>Library</title>
+
+</head>
+
+<body>
+	<h1 id="welcome">Welcome to your library!</h1>
+	<div id="mainBtns">
+		<button id="addBookBtn" class="bm">ADD BOOK</button>
+		<button id="displayBooksBtn" class="bm">DISPLAY BOOKS</button>
+	</div>
+	<div class="formAll">
+		<h2>Create book:</h2>
+		<form action="http://localhost:8282/books/" method="POST">
+			<p>ISBN:</p>
+			<p>
+				<input type="text" id="isbn">
+			</p>
+
+			<p>Title:</p>
+			<p>
+				<input type="text" id="title">
+			</p>
+
+			<p>Author:</p>
+			<p>
+				<input type="text" id="author">
+			</p>
+			<p>Publisher:</p>
+			<p>
+				<input type="text" id="publisher">
+			</p>
+			<p>Type:</p>
+			<p>
+				<input type="text" id="type">
+			</p>
+			<button class="add">ADD</button>
+		</form>
+	</div>
+	<div class="booksD">
+		<h2>Books:</h2>
+		<h3>Titles:</h3>
+	</div>
+	<div class="loadBooks"></div>
+
+
+</body>
+</html>
