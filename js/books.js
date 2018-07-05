@@ -138,8 +138,7 @@ addBookBtn.on("click", function(){
 	formAll.slideDown(2000);
 	formAll.css("display", "block");}
 	else{
-		formAll.slideUp(2000);}
-		
+		formAll.slideUp(2000);}	
 	
 });
 
